@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="TextNormalColorWhiteLv3">
+        <item name="android:textSize">@dimen/size_text_normal_lv3</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextNormalColorWhiteLv1">
+        <item name="android:textSize">@dimen/size_text_normal_lv1</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextNormalColorBlackLv3">
+        <item name="android:textSize">@dimen/size_text_normal_lv3</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextNormalLv2ColorBack">
+        <item name="android:textSize">@dimen/size_text_normal_lv2_5</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="CustomActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="text_profile">
+        <item name="android:textSize">@dimen/size_text_head_lv2</item>
+        <item name="android:textColor">@color/green_garden</item>
+    </style>
+
+
+    <style name="text_profile_orange">
+        <item name="android:textSize">@dimen/size_text_head_lv2</item>
+        <item name="android:textColor">@color/color_orange</item>
+    </style>
+
+</resources>
+
+

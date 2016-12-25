@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground_create_vegetable"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_right_5dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_bg_edit_text"
+        android:hint="Enter name of Garden"
+        android:textColorHint="@color/colorWhite">
+
+        <EditText
+            android:textColor="@color/colorWhite"
+            android:id="@+id/edi_name_garden"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_right_5dp"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_right_5dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_bg_edit_text"
+        android:hint="Address"
+        android:textColorHint="@color/colorWhite">
+
+        <EditText
+            android:textColor="@color/colorWhite"
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_right_5dp"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_right_5dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_bg_edit_text"
+        android:hint="Area : m"
+        android:textColorHint="@color/colorWhite">
+
+        <EditText
+            android:id="@+id/edt_ares_garden"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="phone"
+            android:padding="@dimen/padding_right_5dp"
+            android:textColor="@color/colorWhite"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/edt_vegetable_garden"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_right_5dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_bg_button_green_state"
+        android:textColor="@drawable/custom_bg_text_green_state"
+        android:padding="@dimen/padding_right_5dp"
+        android:text="Choose vegetable" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_right_5dp"
+        android:layout_weight="2"
+        android:background="@drawable/custom_bg_edit_text"
+        android:hint="Description"
+        android:textColorHint="@color/colorWhite">
+
+        <EditText
+            android:id="@+id/edt_description_garden"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_right_5dp"
+            android:textColor="@color/colorWhite"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/ic_garden" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btn_create_garden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg_create"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="CREATE "
+            android:textColor="@color/green_garden"
+            android:textSize="@dimen/size_text_head_lv2" />
+    </LinearLayout>
+</LinearLayout>

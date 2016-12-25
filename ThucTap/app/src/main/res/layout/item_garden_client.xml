@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_edit_right"
+    android:layout_margin="@dimen/cardview_default_elevation"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_name_garden_client"
+        android:layout_width="match_parent"
+        android:text="Hoa qua"
+        style="@style/TextNormalColorBlackLv3"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_address_garden_client"
+        android:layout_width="match_parent"
+        android:text="Quan 9"
+        style="@style/TextNormalColorBlackLv3"
+        android:layout_height="wrap_content" />
+</LinearLayout>

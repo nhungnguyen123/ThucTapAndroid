@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground_create_vegetable"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/padding_top_10dp"
+        android:orientation="vertical"
+        android:weightSum="11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/padding_right_5dp"
+            android:layout_weight="0.9"
+            android:hint="Enter name of Vegetable"
+            android:orientation="horizontal"
+            android:textColorHint="@color/colorWhite"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="Name"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/edi_name_vegetable"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/custom_bg_edit_text"
+                android:gravity="center|start"
+                android:padding="@dimen/padding_right_5dp"
+                android:singleLine="true"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/padding_right_5dp"
+            android:layout_weight="0.9"
+            android:hint="Enter name of Vegetable"
+            android:orientation="horizontal"
+            android:textColorHint="@color/colorWhite"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="PH"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/edt_pd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/custom_bg_edit_text"
+                android:gravity="center|start"
+                android:padding="@dimen/padding_right_5dp"
+                android:singleLine="true"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/padding_right_5dp"
+            android:layout_weight="0.9"
+            android:hint="Enter name of Vegetable"
+            android:orientation="horizontal"
+            android:textColorHint="@color/colorWhite"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="PH"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/edt_pesticides"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/custom_bg_edit_text"
+                android:gravity="center|start"
+                android:padding="@dimen/padding_right_5dp"
+                android:singleLine="true"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/padding_right_5dp"
+            android:layout_weight="0.9"
+            android:hint="Enter name of Vegetable"
+            android:orientation="horizontal"
+            android:textColorHint="@color/colorWhite"
+            android:weightSum="5">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="Description"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/edt_description"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/custom_bg_edit_text"
+                android:gravity="center|start"
+                android:padding="@dimen/padding_right_5dp"
+                android:singleLine="true"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/padding_top_10dp"
+            android:layout_weight="1.2"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/padding_top_10dp"
+                android:text="From"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/tv_day_from"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="@dimen/padding_top_10dp"
+                android:text="To"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/padding_top_10dp"
+            android:layout_weight="1.2"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/padding_top_10dp"
+                android:text="To"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/tv_day_to"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="@dimen/padding_top_10dp"
+                android:text="To"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1.8">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/size_text_head_lv2"
+                android:text="Tiến Độ"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/colorWhite"
+                android:layout_weight="1"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imv_vegetable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/padding_right_5dp"
+                android:src="@drawable/ic_garden" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
